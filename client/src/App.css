@@ -1,0 +1,91 @@
+
+.App {
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.myInfoHolder{
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.outPutHolder{
+  margin-top: -7vh;
+  margin-left: 0.5vw;
+  width: 37vw;
+  height: 84vh;
+  background-color: #3a3e46;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.userDetailsDiv{
+  background-color: #282c34;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 32vw;
+}
+
+.userDetailsDiv:nth-of-type(1){
+  margin-top: 20px;
+}
+
+
+.mainDiv{
+  background-color: #3a3e46;
+  height: 100vh;
+}
+
+.inputBox{
+  width: 44%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+  margin: 15px;
+  border:none;
+  outline: none;
+}
+
+.insertBtn{
+  border:none;
+  padding: 10px 20px 10px 20px;
+  width:91%;
+  margin-left: 2%;
+  margin-top: 3vh;
+  border-radius: 50px;
+  background-color: rgb(175, 175, 175);
+  outline: none!important;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.insertBtn:hover {
+  background-color: rgb(231, 231, 231);
+}
+
+.deleteBtn{
+  width: 100%;
+  border:none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  outline: none!important;
+}
+
+.deleteBtn:hover{
+  background-color: red;
+  color:white
+}
+
+
+
+
+
+
